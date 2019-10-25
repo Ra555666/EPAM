@@ -31,5 +31,6 @@ public class Runner {
         System.out.println("Military airport sorted by max distance: " + airport.sortByMaxDistance().toString());
         System.out.println("Passenger airport sorted by max speed: " + airport.sortByMaxSpeed().toString());
         System.out.println("Plane with max passenger capacity: " + airport.getPassengerPlaneWithMaxCapacity());
+        System.out.println("Passenger planes: " + airport.getPassengerPlane());
     }
 }

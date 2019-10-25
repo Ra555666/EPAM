@@ -17,7 +17,7 @@ public class Airport {
 
 
     public List<PassengerPlane> getPassengerPlane() {
-        List<PassengerPlane> passengerPlanesList = new ArrayList<PassengerPlane>();
+        List<PassengerPlane> passengerPlanesList = new ArrayList<>();
         for (Plane plane : allPlanes) {
             if (plane instanceof PassengerPlane) {
                 passengerPlanesList.add((PassengerPlane) plane);
@@ -27,7 +27,7 @@ public class Airport {
     }
 
     public List<MilitaryPlane> getMilitaryPlanes() {
-        List<MilitaryPlane> militaryPlanesList = new ArrayList<MilitaryPlane>();
+        List<MilitaryPlane> militaryPlanesList = new ArrayList<>();
         for (Plane plane : allPlanes) {
             if (plane instanceof MilitaryPlane) {
                 militaryPlanesList.add((MilitaryPlane) plane);
@@ -48,7 +48,7 @@ public class Airport {
     }
 
     public List<MilitaryPlane> getTransportMilitaryPlanes() {
-        List<MilitaryPlane> transportMilitaryPlanes = new ArrayList<MilitaryPlane>();
+        List<MilitaryPlane> transportMilitaryPlanes = new ArrayList<>();
         List<MilitaryPlane> militaryPlanes = getMilitaryPlanes();
         for (int i = 0; i < militaryPlanes.size(); i++) {
             MilitaryPlane plane = militaryPlanes.get(i);
@@ -60,7 +60,7 @@ public class Airport {
     }
 
     public List<MilitaryPlane> getBomberMilitaryPlanes() {
-        List<MilitaryPlane> bomberMilitaryPlanes = new ArrayList<MilitaryPlane>();
+        List<MilitaryPlane> bomberMilitaryPlanes = new ArrayList<>();
         List<MilitaryPlane> militaryPlanes = getMilitaryPlanes();
         for (int i = 0; i < militaryPlanes.size(); i++) {
             MilitaryPlane plane = militaryPlanes.get(i);
