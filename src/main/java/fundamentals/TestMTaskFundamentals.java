@@ -1,10 +1,10 @@
-package org.ramus.javafundamentals.mainTask;
+package fundamentals;
 
 import java.util.Scanner;
 
 public class TestMTaskFundamentals {
     public static void main(String[] args) {
-        MTaskFundamentals mainTask = new MTaskFundamentals();
+        MainTaskFundamentals mainTask = new MainTaskFundamentals();
         Scanner input = new Scanner(System.in);
         String month;
         int monthNum = 0;

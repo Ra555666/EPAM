@@ -1,10 +1,10 @@
-package org.ramus.javafundamentals.mainTask;
+package fundamentals;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class MTaskFundamentals {
+public class MainTaskFundamentals {
 
     public static void greeting(String name){
         System.out.println("Greeting " + name);
