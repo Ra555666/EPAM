@@ -1,7 +1,9 @@
-import models.MilitaryType;
-import Planes.MilitaryPlane;
-import Planes.PassengerPlane;
-import Planes.Plane;
+package clean_code;
+
+import clean_code.models.MilitaryType;
+import clean_code.Planes.MilitaryPlane;
+import clean_code.Planes.PassengerPlane;
+import clean_code.Planes.Plane;
 
 import java.util.Arrays;
 import java.util.List;

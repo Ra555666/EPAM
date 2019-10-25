@@ -1,7 +1,7 @@
-package Planes;
+package clean_code.Planes;
 
-import models.ClassificationLevel;
-import models.ExperimentalType;
+import clean_code.models.ClassificationLevel;
+import clean_code.models.ExperimentalType;
 
 import java.util.Objects;
 
