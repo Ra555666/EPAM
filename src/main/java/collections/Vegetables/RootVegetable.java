@@ -2,11 +2,11 @@ package collections.Vegetables;
 
 import java.util.Objects;
 
-public class RootVegetables extends Vegetables {
+public class RootVegetable extends Vegetable {
     private boolean peelAvailability;
 
-    public RootVegetables(String vegetablesName, int vegetablesCalories, String vegetablesColor, String vegetablesTaste, boolean peelAvailability) {
-        super(vegetablesName, vegetablesCalories, vegetablesColor, vegetablesTaste);
+    public RootVegetable(String vegetableName, int vegetableCalories, String vegetableColor, String vegetableTaste, boolean peelAvailability) {
+        super(vegetableName, vegetableCalories, vegetableColor, vegetableTaste);
         this.peelAvailability = peelAvailability;
     }
 
@@ -26,7 +26,7 @@ public class RootVegetables extends Vegetables {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
-        RootVegetables that = (RootVegetables) o;
+        RootVegetable that = (RootVegetable) o;
         return peelAvailability == that.peelAvailability;
     }
 

@@ -10,13 +10,11 @@ public class TestMTaskFundamentals {
         int monthNum = 0;
         boolean monthActive;
 
-
-//        Приветствовать любого пользователя при вводе его имени через командную строку.
         System.out.println("What is your name?");
         String userName = input.nextLine();
-        mainTask.greeting(userName);
+        MainTaskFundamentals.greetingUser(userName);
 //        Отобразить в окне консоли аргументы командной строки в обратном порядке.
-        mainTask.revert(userName);
+        mainTask.revertUserName(userName);
 
 //        Вывести заданное количество случайных чисел с переходом и без перехода на новую строку
         System.out.println("Input required quantity of numbers: ");
@@ -42,9 +40,8 @@ public class TestMTaskFundamentals {
                 input.next();
             }
         }
-            while (!(monthActive));
-            System.out.println("your month is " + mainTask.whatIsMonthIs(monthNum));
-
+        while (!(monthActive));
+        System.out.println("your month is " + mainTask.whatIsMonthIs(monthNum));
 
 
     }
