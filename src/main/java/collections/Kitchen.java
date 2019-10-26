@@ -43,6 +43,14 @@ public class Kitchen {
         return  caloriesInRange;
     }
 
+    public int getSaladCalories(List<Vegetables> salad){
+        int allCalories = 0;
+        for (Vegetables veg: salad){
+            allCalories +=veg.getVegetablesCalories();
+        }
+        return allCalories;
+    }
+
 
 
 

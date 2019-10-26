@@ -23,7 +23,7 @@ public class Bowl {
         Kitchen testKitchen = new Kitchen(salad);
         System.out.println("Vegetables with max calories: " + testKitchen.getVegetablesWithMaxCalories().toString());
         System.out.println("Vegetables with range of calories: " + testKitchen.getVegetablesWithCaloriesInTheRange(10,20).toString());
-
+        System.out.println("Caloric value of salad is: " + testKitchen.getSaladCalories(salad));
     }
 
 }
