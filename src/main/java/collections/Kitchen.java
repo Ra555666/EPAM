@@ -3,6 +3,8 @@ package collections;
 import collections.Vegetables.Vegetables;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Kitchen {
@@ -51,7 +53,21 @@ public class Kitchen {
         return allCalories;
     }
 
+    public Kitchen sortByMaxCalories() {
+        Collections.sort(salad, new Comparator<Vegetables>() {
+            public int compare(Vegetables o1, Vegetables o2) {
+                return o1.getVegetablesCalories() - o2.getVegetablesCalories();
+            }
+        });
+        return this;
+    }
 
+    @Override
+    public String toString() {
+        return "Kitchen{" +
+                "Vegetables=" + salad.toString() +
+                '}';
+    }
 
 
 
