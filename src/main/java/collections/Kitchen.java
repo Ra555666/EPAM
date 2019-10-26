@@ -52,14 +52,14 @@ public class Kitchen {
         }
         return allCalories;
     }
-
-    public Kitchen sortByCalories() {
+// Поправить!!!!!!!!!!!!!
+    public void sortByCalories() {
         Collections.sort(salad, new Comparator<Vegetable>() {
             public int compare(Vegetable o1, Vegetable o2) {
                 return o1.getVegetableCalories() - o2.getVegetableCalories();
             }
         });
-        return this;
+//        return this;
     }
 
     @Override
