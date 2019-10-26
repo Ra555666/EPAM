@@ -38,7 +38,7 @@ public class Kitchen {
     public List<Vegetable> getVegetableWithCaloriesInTheRange(int minCalories, int maxCalories) {
         List<Vegetable> caloriesInRange = new ArrayList<>();
         for (Vegetable vegetable : salad) {
-            if (vegetable.getVegetableCalories() >= minCalories && vegetable.getVegetableCalories() <= maxCalories) {
+            if (vegetable.getVegetableCalories() >= minCalories & vegetable.getVegetableCalories() <= maxCalories) {
                 caloriesInRange.add((Vegetable) vegetable);
             }
         }
