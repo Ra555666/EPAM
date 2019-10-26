@@ -24,7 +24,7 @@ public class Bowl {
         System.out.println("Vegetables with max calories: " + testKitchen.getVegetablesWithMaxCalories().toString());
         System.out.println("Vegetables with range of calories: " + testKitchen.getVegetablesWithCaloriesInTheRange(10,20).toString());
         System.out.println("Caloric value of salad is: " + testKitchen.getSaladCalories(salad));
-        System.out.println("Sort by calories: " + testKitchen.sortByMaxCalories().toString());
+        System.out.println("Sort by calories: " + testKitchen.sortByCalories().toString());
 
     }
 

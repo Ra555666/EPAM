@@ -53,7 +53,7 @@ public class Kitchen {
         return allCalories;
     }
 
-    public Kitchen sortByMaxCalories() {
+    public Kitchen sortByCalories() {
         Collections.sort(salad, new Comparator<Vegetables>() {
             public int compare(Vegetables o1, Vegetables o2) {
                 return o1.getVegetablesCalories() - o2.getVegetablesCalories();
