@@ -6,6 +6,6 @@ public class MainExecutor {
         Executor.userNameRevert(Executor.greetingUser());
         Executor.outputRandomNumbers(5);
         Executor.summingNumbers(numbers);
-        Executor.choosingMonth(7);
+        Executor.choosingMonth(1);
     }
 }

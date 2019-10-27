@@ -47,7 +47,7 @@ public class Executor {
     }
 
     public static void choosingMonth(int monthNumber) {
-        System.out.println(Month.values()[monthNumber]);
+        System.out.println(Month.values()[monthNumber-1]);
     }
 }
 
