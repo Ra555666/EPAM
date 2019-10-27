@@ -7,5 +7,6 @@ public class MainExecutor {
         Executor.outputRandomNumbers(5);
         Executor.summingNumbers(numbers);
         Executor.choosingMonth(1);
+
     }
 }

@@ -47,7 +47,9 @@ public class Executor {
     }
 
     public static void choosingMonth(int monthNumber) {
-        System.out.println(Month.values()[monthNumber-1]);
+        String month = String.valueOf(Month.values()[monthNumber-1]).toLowerCase();
+
+        System.out.println(month.substring(0, 1).toUpperCase() + month.substring(1));
     }
 }
 
