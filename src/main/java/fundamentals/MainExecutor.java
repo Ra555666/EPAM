@@ -2,7 +2,10 @@ package fundamentals;
 
 public class MainExecutor {
     public static void main(String[] args) {
-        Executor executor = new Executor();
-        executor.userNameRevert(Executor.greetingUser());
+        String numbers = "5 6 4 8 -10";
+        Executor.userNameRevert(Executor.greetingUser());
+        Executor.outputRandomNumbers(5);
+        Executor.summingNumbers(numbers);
+        Executor.choosingMonth(7);
     }
 }
