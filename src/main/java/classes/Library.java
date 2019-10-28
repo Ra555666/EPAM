@@ -4,15 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Library {
-//    private List<Books.Book> list = new ArrayList<Books.Book>();
-
-//    public void addBook(Books.Book book) {
-//        list.add(book);
-//    }
-
-//    public List<Books.Book> getBooks() {
-//        return list;
-//    }
 
     public ArrayList creatingListOfBooks() {
         ArrayList<Book> list = new ArrayList<Book>();
